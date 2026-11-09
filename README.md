@@ -3,7 +3,7 @@
 This repository provides a reference implementation for encrypting database credentials
 used with the NRDOT OpenTelemetry Collector's built-in AES provider (`aesprovider`).
 
-> **Note**: This is a sample reference only. You are not required to use this script.
+> **Note**: This is a sample reference only.
 > Any tool that produces AES-256-GCM encrypted output in `base64(nonce + ciphertext)`
 > format (standard base64, 12-byte nonce) is compatible with the `aesprovider`.
 
